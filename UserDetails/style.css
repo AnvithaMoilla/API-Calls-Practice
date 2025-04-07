@@ -1,0 +1,42 @@
+html {
+    background-color: lightgray;
+}
+
+button {
+    background-color:#4267B2;
+    color: white;
+    border-radius: 5px;
+    border : none;
+    font-family: 'Caveat';
+    width: 205px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+body {
+    font-family: 'Caveat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    border-color: rgb(204, 201, 201);
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.user_url {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user_details {
+    display: flex;
+    gap: 10px;
+}
+

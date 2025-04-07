@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Playing Around</title>
+  </head>
+  <body>
+    <h1 id="header">User Onboarding</h1>
+    <div>
+        <form name="myForm" onsubmit="addToConsole(event)">
+          <label>First Name: </label><input id="firstName" onfocus="testFunc()" required />
+          <br>
+          <label>Last Name: </label><input id="lastName" onfocus="testFunc()" required />
+          <br>
+          <label>Phone Number: </label><input id="phoneNumber" onfocus="testFunc()" required type="number" min="0" max="10"/>
+          <br>
+          <button type="submit" id="submitBtn" >Submit</button>
+        </form>
+    </div>
+    <div>
+        <p id="user_details"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
